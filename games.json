@@ -1,0 +1,14 @@
+{
+  "valorant": {
+    "name": "Valorant",
+    "path": "C:\\Users\\Public\\Desktop\\VALORANT.lnk",
+    "last_played": "18:06",
+    "action": "[▶] Запустить",
+    "graphics_preset": {
+      "resolution": "1920x1080",
+      "textures": "Низкое",
+      "aa": "Выкл"
+    },
+    "config_dir": "C:\\Riot Games\\VALORANT\\live"
+  }
+}

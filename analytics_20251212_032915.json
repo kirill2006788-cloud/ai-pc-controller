@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-12-12T03:29:15.730192",
+  "system": {
+    "cpu": 3.9,
+    "ram": 41.4,
+    "processes": 239
+  },
+  "automation": {
+    "scenarios_total": 4,
+    "scenarios_run": 2,
+    "tasks_completed": 1
+  },
+  "commands": {
+    "total": 0,
+    "history": [
+      {
+        "timestamp": "2025-12-12T03:28:39.708267",
+        "text": "[AUTO] Выполнен сценарий: Утренняя рутина"
+      },
+      {
+        "timestamp": "2025-12-12T03:28:43.477692",
+        "text": "[AUTO] Выполнен сценарий: Рабочий режим"
+      },
+      {
+        "timestamp": "2025-12-12T03:28:52.875765",
+        "text": "[AUTO] Логи автоматизации очищены"
+      },
+      {
+        "timestamp": "2025-12-12T03:28:53.511203",
+        "text": "[AUTO] Логи экспортированы: automation_logs_20251212_032853.txt"
+      },
+      {
+        "timestamp": "2025-12-12T03:28:55.974997",
+        "text": "[AUTO] Логи экспортированы: automation_logs_20251212_032855.txt"
+      }
+    ]
+  },
+  "usage_stats": {
+    "commands_executed": 0,
+    "files_managed": 0,
+    "games_launched": 0,
+    "automation_runs": 2
+  }
+}

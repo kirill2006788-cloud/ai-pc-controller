@@ -1,0 +1,29 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#1a2340"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <circle cx="180" cy="120" r="56" fill="#2b7fff"/>
+  <text x="260" y="126" font-family="Arial" font-size="42" fill="#fff" font-weight="700">AI PC Controller</text>
+  <rect x="40" y="190" width="320" height="490" rx="24" fill="#141c34"/>
+  <rect x="390" y="190" width="850" height="240" rx="24" fill="#121a30"/>
+  <rect x="390" y="450" width="410" height="230" rx="24" fill="#121a30"/>
+  <rect x="830" y="450" width="410" height="230" rx="24" fill="#121a30"/>
+  <text x="70" y="245" font-family="Arial" font-size="24" fill="#9fb7ff">Scenes</text>
+  <text x="70" y="285" font-family="Arial" font-size="18" fill="#d7e3ff">• Base</text>
+  <text x="70" y="315" font-family="Arial" font-size="18" fill="#d7e3ff">• Chat</text>
+  <text x="70" y="345" font-family="Arial" font-size="18" fill="#d7e3ff">• System Monitor</text>
+  <text x="70" y="375" font-family="Arial" font-size="18" fill="#d7e3ff">• Telegram</text>
+  <text x="420" y="245" font-family="Arial" font-size="24" fill="#9fb7ff">Assistant Stream</text>
+  <text x="420" y="292" font-family="Arial" font-size="18" fill="#d7e3ff">User: Open monitoring panel</text>
+  <text x="420" y="326" font-family="Arial" font-size="18" fill="#9fe8ff">AI: Done. Metrics feed is now active.</text>
+  <text x="420" y="360" font-family="Arial" font-size="18" fill="#d7e3ff">User: Switch to local provider</text>
+  <text x="420" y="394" font-family="Arial" font-size="18" fill="#9fe8ff">AI: Local mode enabled.</text>
+  <text x="420" y="500" font-family="Arial" font-size="24" fill="#9fb7ff">System</text>
+  <text x="420" y="548" font-family="Arial" font-size="18" fill="#d7e3ff">CPU 34% • RAM 41% • GPU 26%</text>
+  <text x="860" y="500" font-family="Arial" font-size="24" fill="#9fb7ff">Voice</text>
+  <text x="860" y="548" font-family="Arial" font-size="18" fill="#d7e3ff">"Jarvis, open Telegram scene"</text>
+</svg>

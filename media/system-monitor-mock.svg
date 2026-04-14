@@ -1,0 +1,20 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#0b1220"/>
+  <text x="60" y="90" font-family="Arial" font-size="44" fill="#fff" font-weight="700">System Monitor Scene</text>
+  <rect x="60" y="130" width="1160" height="540" rx="24" fill="#121b32"/>
+  <rect x="95" y="180" width="260" height="200" rx="18" fill="#1a2748"/>
+  <rect x="380" y="180" width="260" height="200" rx="18" fill="#1a2748"/>
+  <rect x="665" y="180" width="260" height="200" rx="18" fill="#1a2748"/>
+  <rect x="950" y="180" width="235" height="200" rx="18" fill="#1a2748"/>
+  <text x="125" y="230" font-family="Arial" font-size="22" fill="#9fb7ff">CPU</text>
+  <text x="125" y="285" font-family="Arial" font-size="46" fill="#fff" font-weight="700">34%</text>
+  <text x="410" y="230" font-family="Arial" font-size="22" fill="#9fb7ff">RAM</text>
+  <text x="410" y="285" font-family="Arial" font-size="46" fill="#fff" font-weight="700">41%</text>
+  <text x="695" y="230" font-family="Arial" font-size="22" fill="#9fb7ff">GPU</text>
+  <text x="695" y="285" font-family="Arial" font-size="46" fill="#fff" font-weight="700">26%</text>
+  <text x="980" y="230" font-family="Arial" font-size="22" fill="#9fb7ff">NET</text>
+  <text x="980" y="285" font-family="Arial" font-size="40" fill="#fff" font-weight="700">92 Mbps</text>
+  <rect x="95" y="410" width="1090" height="220" rx="18" fill="#1a2748"/>
+  <polyline points="120,575 200,530 280,545 360,490 440,510 520,470 600,500 680,455 760,485 840,430 920,470 1000,410 1080,450 1160,390" fill="none" stroke="#4ea8de" stroke-width="5"/>
+  <text x="120" y="450" font-family="Arial" font-size="20" fill="#cfe2ff">Realtime performance trend</text>
+</svg>

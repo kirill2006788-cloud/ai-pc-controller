@@ -14,6 +14,9 @@ Design a living desktop assistant system that feels like a real operator layer o
 Unlike basic chatbot wrappers, this project targets a richer desktop experience:
 
 - scene/state driven UI,
+- dedicated scenes like **Neon City** and **System Monitor**,
+- **HUD mode** for overlay controls and contextual widgets,
+- **Agent mode** for task execution flow and progress feedback,
 - command routing,
 - local-first response path when possible,
 - integration points for external providers.

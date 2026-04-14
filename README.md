@@ -12,6 +12,9 @@ A desktop AI assistant system focused on **voice-first control**, **OS automatio
 - 🖥️ OS control and command orchestration
 - 🧩 Scene-based desktop UX architecture
 - 🔌 Service-oriented modules (AI / TTS / Telegram / metrics)
+- 🌆 **Neon City scene** with immersive visual mode
+- 🧭 **HUD mode** with overlay widgets and live status
+- 🤖 **Agent mode** with task progress and execution flow
 
 ## 🛠️ Tech Direction
 
@@ -22,11 +25,20 @@ A desktop AI assistant system focused on **voice-first control**, **OS automatio
 
 ## 🖼️ Screenshots
 
-### Product visuals
+### Real app screens
+
+![Neon City Scene](media/neon-city-screen.png)
+![HUD Mode](media/hud-mode-screen.png)
+![Agent Mode](media/agent-mode-screen.png)
+![Telegram Scene](media/telegram-scene-screen.png)
+![System Monitor Scene](media/system-monitor-real-screen.png)
+
+### Product visuals (mock)
 
 ![Main Dashboard Mock](media/main-dashboard-mock.svg)
 ![Voice Command Flow Mock](media/voice-command-flow-mock.svg)
 ![System Monitor Mock](media/system-monitor-mock.svg)
+![Neon City Overlay Mock](media/neon-city-overlay-mock.svg)
 
 ### Branding
 

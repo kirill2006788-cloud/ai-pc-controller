@@ -1,0 +1,25 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="n" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12002b"/>
+      <stop offset="100%" stop-color="#001a33"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#n)"/>
+  <text x="60" y="90" font-family="Arial" font-size="42" fill="#ffffff" font-weight="700">Neon City HUD Overlay</text>
+  <rect x="50" y="130" width="1180" height="540" rx="24" fill="#0b1220" opacity="0.45"/>
+  <circle cx="200" cy="220" r="44" fill="#00d4ff" opacity="0.8"/>
+  <circle cx="1080" cy="220" r="44" fill="#ff4fd8" opacity="0.8"/>
+  <rect x="90" y="310" width="500" height="320" rx="20" fill="#081426" opacity="0.8"/>
+  <rect x="640" y="310" width="550" height="320" rx="20" fill="#081426" opacity="0.8"/>
+  <text x="120" y="360" font-family="Arial" font-size="24" fill="#8de8ff">HUD MODE</text>
+  <text x="120" y="400" font-family="Arial" font-size="18" fill="#d3ecff">• overlay widgets</text>
+  <text x="120" y="432" font-family="Arial" font-size="18" fill="#d3ecff">• quick scene switching</text>
+  <text x="120" y="464" font-family="Arial" font-size="18" fill="#d3ecff">• voice pulse feedback</text>
+  <text x="120" y="496" font-family="Arial" font-size="18" fill="#d3ecff">• metric cards + status</text>
+  <text x="670" y="360" font-family="Arial" font-size="24" fill="#ffb0f0">AGENT MODE</text>
+  <text x="670" y="400" font-family="Arial" font-size="18" fill="#ffd5f8">• task execution progress</text>
+  <text x="670" y="432" font-family="Arial" font-size="18" fill="#ffd5f8">• diff stream + token stream</text>
+  <text x="670" y="464" font-family="Arial" font-size="18" fill="#ffd5f8">• command plan visualized</text>
+  <text x="670" y="496" font-family="Arial" font-size="18" fill="#ffd5f8">• safe fallback routing</text>
+</svg>

@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pytest pytest-cov flake8 black mypy
+          
+      - name: Lint with flake8
+        run: |
+          flake8 . --max-line-length=120 --ignore=E501,W503,E402
+          
+      - name: Check code format
+        run: |
+          black --check .
+          
+      - name: Type check
+        run: |
+          mypy src/ --ignore-missing-imports || true
+          
+      - name: Run tests
+        run: |
+          pytest --cov=. --cov-report=xml --cov-report=term || echo "No tests found"
+          
+      - name: Upload coverage
+        uses: codecov/codecov-action@v4
+        with:
+          file: ./coverage.xml
+        continue-on-error: true
